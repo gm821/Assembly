@@ -15,7 +15,7 @@
 		89A9735522B2208300CF579D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A9735422B2208300CF579D /* main.m */; };
 		89A9735F22B2208400CF579D /* AssemblyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A9735E22B2208400CF579D /* AssemblyTests.m */; };
 		89A9736A22B2208400CF579D /* AssemblyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A9736922B2208400CF579D /* AssemblyUITests.m */; };
-		89A9737A22B220F900CF579D /* NSString+LocalString.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A9737922B220F900CF579D /* NSString+LocalString.m */; };
+		89A9737E22B2231C00CF579D /* NSString+LocalString.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A9737D22B2231C00CF579D /* NSString+LocalString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		89A9736522B2208400CF579D /* AssemblyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssemblyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89A9736922B2208400CF579D /* AssemblyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssemblyUITests.m; sourceTree = "<group>"; };
 		89A9736B22B2208400CF579D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		89A9737822B220F900CF579D /* NSString+LocalString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+LocalString.h"; sourceTree = "<group>"; };
-		89A9737922B220F900CF579D /* NSString+LocalString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+LocalString.m"; sourceTree = "<group>"; };
+		89A9737C22B2231C00CF579D /* NSString+LocalString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LocalString.h"; sourceTree = "<group>"; };
+		89A9737D22B2231C00CF579D /* NSString+LocalString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LocalString.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,10 +139,18 @@
 		89A9737722B220E200CF579D /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				89A9737822B220F900CF579D /* NSString+LocalString.h */,
-				89A9737922B220F900CF579D /* NSString+LocalString.m */,
+				89A9737B22B2231C00CF579D /* Classes */,
 			);
 			path = Lib;
+			sourceTree = "<group>";
+		};
+		89A9737B22B2231C00CF579D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				89A9737C22B2231C00CF579D /* NSString+LocalString.h */,
+				89A9737D22B2231C00CF579D /* NSString+LocalString.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,7 +285,7 @@
 			files = (
 				89A9734A22B2208300CF579D /* ViewController.m in Sources */,
 				89A9735522B2208300CF579D /* main.m in Sources */,
-				89A9737A22B220F900CF579D /* NSString+LocalString.m in Sources */,
+				89A9737E22B2231C00CF579D /* NSString+LocalString.m in Sources */,
 				89A9734722B2208300CF579D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
